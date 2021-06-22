@@ -1,0 +1,141 @@
+@media (max-width: 1366px) {
+    .fixed_width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 840px) {
+   .header  {
+       padding: 15px 0;
+    .header_left {
+        width: 100%;
+        text-align: center;
+        a { 
+           
+            img {
+               
+            }
+        }
+       
+    }
+    .header_right {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        ul {
+            text-align: center;
+
+            li {
+                a {
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+   }
+   .banner {
+       .fixed_width {
+           padding: 0 20px;
+       }
+       
+       .banner_caption {
+           
+           h1 {
+               font-size: 30px;
+           }
+       }
+   }
+   .about {
+    .fixed_width {
+        padding: 0 20px;
+    }
+   }
+   .service {
+       margin: auto;
+       .fixed_width {
+        padding: 0 20px;
+    }
+    .service_item {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+    .blog_container {
+        .fixed_width {
+            padding: 0 20px;
+        }
+    }
+   .blog_left_content {
+	
+	width: 100%;
+    }
+    .blog_righit_notification {
+        
+        width: 100%;
+    }
+    .footer_left {
+        text-align: center;
+        width: 100%;
+    }
+    .footer_right {
+        
+        width: 100%;
+        ul {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+
+}
+@media (max-width: 591px) {
+    body {
+        
+    }
+    .header  {
+        padding: 20px 0;
+     .header_left {
+         width: 100%;
+         text-align: center;
+        
+     }
+     .header_right {
+        
+         width: 100%;
+         ul {
+            
+             text-align: center;
+             li {
+                 a {
+                     padding: 0 10px;
+                     font-size: 12px;
+                     border-right: none;
+                     
+                 }
+             }
+         }
+     }
+    }
+    .banner {
+        padding: 100px 0;
+        .fixed_width {
+            padding: 0 20px;
+        }
+        .banner_caption {
+           
+        }
+    }
+   
+    .blog_left_content {
+     
+    
+     }
+     .blog_righit_notification {
+         
+         
+     }
+ 
+ }
